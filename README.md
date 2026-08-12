@@ -96,7 +96,7 @@ booking-ai-demo/
 - **Admin panel** — salon owner would need a view to accept/reject bookings, block off dates, etc. Not in scope.
 - **Payments** — Stripe/Przelewy24 integration is a real business need but orthogonal to the demo's message.
 
-Every one of those is a natural next step. The GroDev [system rezerwacji online](https://grodev.pl/system-rezerwacji-online) service builds them for real clients, on this exact foundation.
+Every one of those is a natural next step. That is what the GroDev [system rezerwacji online](https://grodev.pl/system-rezerwacji-online) service is designed to build — a young studio (JDG since 05.2026), first paid deployments in progress. This repo is the reference architecture.
 
 ## Want this on your site?
 
