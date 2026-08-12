@@ -1,0 +1,16 @@
+{
+    "name": "grodev/booking-ai-demo-backend",
+    "description": "Backend for the booking-ai-demo — Slim REST endpoints for available slots (using grodev/booking-slots) + a Claude chat proxy that answers salon FAQ.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "grodev/booking-slots": "^1.0",
+        "anthropic-ai/sdk": "^0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "GroDev\\BookingAiDemo\\": "src/"
+        }
+    }
+}

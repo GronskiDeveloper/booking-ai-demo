@@ -1,0 +1,21 @@
+:root {
+  --brand: #c68a5c;         /* warm terracotta — beauty salon vibe */
+  --brand-dark: #a06e46;
+  --cream: #f7f1ea;
+  --ink: #2c1e18;
+  --ink-soft: #6a5647;
+  --border: #e5d5c3;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Georgia', 'Playfair Display', serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+  line-height: 1.55;
+}
+h1, h2, h3 { font-family: 'Georgia', serif; letter-spacing: -0.01em; }
+a { color: var(--brand-dark); }

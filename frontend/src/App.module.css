@@ -1,0 +1,115 @@
+.hero {
+  padding: 80px 24px 60px;
+  text-align: center;
+  background: linear-gradient(180deg, #fff8f0 0%, var(--cream) 100%);
+  border-bottom: 1px solid var(--border);
+}
+.brand {
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: 12px;
+}
+.h1 { font-size: 52px; margin: 0 0 12px; }
+.h1 em { color: var(--brand); font-style: italic; }
+.sub { font-size: 18px; color: var(--ink-soft); max-width: 640px; margin: 0 auto 20px; }
+.pill {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+.section h2 { font-size: 32px; margin: 0 0 20px; text-align: center; }
+
+.priceList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.priceItem {
+  background: #fff;
+  padding: 20px 22px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.priceName { font-weight: 600; }
+.priceMeta { font-size: 13px; color: var(--ink-soft); }
+.priceValue { font-family: 'Georgia', serif; font-size: 20px; color: var(--brand-dark); font-weight: 700; white-space: nowrap; }
+
+.calendar {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+}
+.calendarHead { display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+.calendarHead label { font-weight: 600; }
+.calendarHead input {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+  background: #fff;
+}
+.calendarNote { color: var(--ink-soft); font-size: 14px; margin-left: auto; }
+
+.slotsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+.slotBtn {
+  padding: 10px 8px;
+  background: #fff;
+  border: 1px solid var(--brand);
+  color: var(--brand-dark);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  font-family: inherit;
+}
+.slotBtn:hover { background: var(--brand); color: #fff; }
+.slotBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.empty { text-align: center; padding: 24px; color: var(--ink-soft); font-style: italic; }
+.error { text-align: center; padding: 16px; background: #fff2f2; border: 1px solid #f5c2c2; border-radius: 8px; color: #8a1e1e; }
+
+.confirm {
+  background: #eaf7ee;
+  border: 1px solid #86c896;
+  border-radius: 10px;
+  padding: 14px 18px;
+  color: #1b5a30;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 24px;
+  color: var(--ink-soft);
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+.footer a { color: var(--brand-dark); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }

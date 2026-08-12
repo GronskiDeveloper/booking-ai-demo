@@ -1,0 +1,15 @@
+node_modules/
+vendor/
+dist/
+.vite/
+composer.lock
+package-lock.json
+*.log
+.DS_Store
+.env
+.env.local
+
+# Local-only Claude Code files. .claude/commands/ IS committed.
+.claude/settings.local.json
+.claude/launch.json
+.claude/*.log

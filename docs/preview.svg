@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Podgląd booking-ai-demo — landing salonu z cennikiem, kalendarzem wolnych terminów i asystentem AI w prawym dolnym rogu">
+  <defs>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8f0"/>
+      <stop offset="1" stop-color="#f7f1ea"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c68a5c"/>
+      <stop offset="1" stop-color="#a06e46"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#2c1e18" flood-opacity="0.15"/>
+    </filter>
+    <filter id="launcherShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#cream)"/>
+
+  <!-- Hero band -->
+  <rect x="0" y="0" width="1200" height="220" fill="#fff8f0"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#e5d5c3"/>
+
+  <g text-anchor="middle" font-family="Georgia, serif">
+    <text x="600" y="72" font-size="11" letter-spacing="4" fill="#c68a5c" font-weight="600">B E A U T Y   S T U D I O</text>
+    <text x="600" y="126" font-size="42" fill="#2c1e18" font-weight="700">Anna — <tspan font-style="italic" fill="#c68a5c">salon kosmetyczny w Poznaniu</tspan></text>
+    <text x="600" y="164" font-size="15" fill="#6a5647">Manicure, pedicure, farbowanie, strzyżenie. Umów wizytę online</text>
+    <text x="600" y="182" font-size="15" fill="#6a5647">albo zapytaj asystentkę AI po prawej stronie o cennik i dostępność.</text>
+  </g>
+
+  <!-- CTA pill -->
+  <g transform="translate(542, 200)">
+    <rect x="0" y="0" width="116" height="30" rx="15" fill="url(#brand)"/>
+    <text x="58" y="20" font-family="Georgia, serif" font-size="13" fill="#ffffff" font-weight="600" text-anchor="middle">Wolne terminy →</text>
+  </g>
+
+  <!-- Pricing section -->
+  <g transform="translate(60, 270)" font-family="Georgia, serif">
+    <text x="0" y="0" font-size="14" letter-spacing="3" fill="#a06e46" font-weight="600">CENNIK</text>
+
+    <!-- Card 1 -->
+    <g transform="translate(0, 20)" filter="url(#shadow)">
+      <rect x="0" y="0" width="330" height="72" rx="10" fill="#ffffff" stroke="#e5d5c3"/>
+      <text x="20" y="30" font-size="15" fill="#2c1e18" font-weight="600">Manicure hybrydowy</text>
+      <text x="20" y="52" font-size="12" fill="#6a5647">45 min</text>
+      <text x="310" y="42" font-size="20" fill="#a06e46" font-weight="700" text-anchor="end">120 zł</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(0, 108)" filter="url(#shadow)">
+      <rect x="0" y="0" width="330" height="72" rx="10" fill="#ffffff" stroke="#e5d5c3"/>
+      <text x="20" y="30" font-size="15" fill="#2c1e18" font-weight="600">Farbowanie (długie)</text>
+      <text x="20" y="52" font-size="12" fill="#6a5647">1,5–2h</text>
+      <text x="310" y="42" font-size="20" fill="#a06e46" font-weight="700" text-anchor="end">250–350 zł</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(0, 196)" filter="url(#shadow)">
+      <rect x="0" y="0" width="330" height="72" rx="10" fill="#ffffff" stroke="#e5d5c3"/>
+      <text x="20" y="30" font-size="15" fill="#2c1e18" font-weight="600">Strzyżenie damskie</text>
+      <text x="20" y="52" font-size="12" fill="#6a5647">45 min</text>
+      <text x="310" y="42" font-size="20" fill="#a06e46" font-weight="700" text-anchor="end">80 zł</text>
+    </g>
+  </g>
+
+  <!-- Booking calendar section -->
+  <g transform="translate(430, 270)" filter="url(#shadow)">
+    <rect x="0" y="0" width="360" height="380" rx="14" fill="#ffffff" stroke="#e5d5c3"/>
+
+    <text x="20" y="30" font-family="Georgia, serif" font-size="14" letter-spacing="3" fill="#a06e46" font-weight="600">UMÓW WIZYTĘ</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="14" font-family="Georgia, serif" font-size="13" fill="#2c1e18" font-weight="600">Wybierz datę:</text>
+      <rect x="100" y="-2" width="140" height="26" rx="6" fill="#ffffff" stroke="#e5d5c3"/>
+      <text x="112" y="15" font-family="'Courier New', monospace" font-size="12" fill="#2c1e18">2026-09-01</text>
+      <text x="360" y="14" font-family="Georgia, serif" font-size="11" fill="#6a5647" text-anchor="end">pon–sob, 9:00–17:00</text>
+    </g>
+
+    <!-- Slot grid -->
+    <g font-family="Georgia, serif" font-size="13" fill="#a06e46" font-weight="600">
+      <g transform="translate(20, 95)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">09:00–09:30</text>
+      </g>
+      <g transform="translate(122, 95)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">09:30–10:00</text>
+      </g>
+      <g transform="translate(224, 95)" opacity="0.35">
+        <rect width="94" height="38" rx="6" fill="#f7f1ea" stroke="#c68a5c" stroke-dasharray="3 3"/>
+        <text x="47" y="24" text-anchor="middle" fill="#6a5647">10:00 zajęte</text>
+      </g>
+
+      <g transform="translate(20, 141)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">10:45–11:15</text>
+      </g>
+      <g transform="translate(122, 141)">
+        <rect width="94" height="38" rx="6" fill="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle" fill="#ffffff">11:15–11:45</text>
+      </g>
+      <g transform="translate(224, 141)" opacity="0.35">
+        <rect width="94" height="38" rx="6" fill="#f7f1ea" stroke="#c68a5c" stroke-dasharray="3 3"/>
+        <text x="47" y="24" text-anchor="middle" fill="#6a5647">12:00 zajęte</text>
+      </g>
+
+      <g transform="translate(20, 187)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">13:40–14:10</text>
+      </g>
+      <g transform="translate(122, 187)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">14:10–14:40</text>
+      </g>
+      <g transform="translate(224, 187)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">14:40–15:10</text>
+      </g>
+
+      <g transform="translate(20, 233)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">15:15–15:45</text>
+      </g>
+      <g transform="translate(122, 233)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">15:45–16:15</text>
+      </g>
+      <g transform="translate(224, 233)">
+        <rect width="94" height="38" rx="6" fill="#ffffff" stroke="#c68a5c"/>
+        <text x="47" y="24" text-anchor="middle">16:15–16:45</text>
+      </g>
+    </g>
+
+    <!-- Confirm bar -->
+    <g transform="translate(20, 300)">
+      <rect x="0" y="0" width="320" height="58" rx="8" fill="#eaf7ee" stroke="#86c896"/>
+      <text x="16" y="24" font-family="Georgia, serif" font-size="13" fill="#1b5a30" font-weight="700">✓ Wybrano: 11:15–11:45</text>
+      <text x="16" y="44" font-family="Georgia, serif" font-size="11" fill="#1b5a30">W realnej wersji zostałaby wysłana rezerwacja</text>
+    </g>
+  </g>
+
+  <!-- Chat widget (bottom-right, floating) -->
+  <g transform="translate(820, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="320" height="400" rx="14" fill="#1b1b1f"/>
+
+    <path d="M 0 0 h 320 v 50 h -320 z" fill="url(#brand)"/>
+    <text x="16" y="32" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" font-weight="600">Anna — asystentka</text>
+    <text x="300" y="32" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="end">×</text>
+
+    <!-- Greeting -->
+    <g transform="translate(16, 68)">
+      <rect x="0" y="0" width="240" height="48" rx="12" fill="#2c2c32"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">Cześć! Pytaj o usługi,</text>
+      <text x="14" y="36" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">ceny, wolne terminy 👋</text>
+    </g>
+
+    <!-- User -->
+    <g transform="translate(104, 128)">
+      <rect x="0" y="0" width="200" height="30" rx="12" fill="url(#brand)"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11.5" fill="#ffffff">Ile kosztuje manicure hybrydowy?</text>
+    </g>
+
+    <!-- Bot answer -->
+    <g transform="translate(16, 172)">
+      <rect x="0" y="0" width="240" height="46" rx="12" fill="#2c2c32"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">Manicure hybrydowy to 120 zł</text>
+      <text x="14" y="36" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">(45 min).</text>
+    </g>
+
+    <!-- User -->
+    <g transform="translate(60, 230)">
+      <rect x="0" y="0" width="244" height="30" rx="12" fill="url(#brand)"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11.5" fill="#ffffff">Chcę się umówić na jutro rano</text>
+    </g>
+
+    <!-- Bot delegation -->
+    <g transform="translate(16, 274)">
+      <rect x="0" y="0" width="248" height="46" rx="12" fill="#2c2c32"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">Sprawdzę dostępne terminy —</text>
+      <text x="14" y="36" font-family="Arial, sans-serif" font-size="11.5" fill="#f2f2f5">wybierz datę z kalendarza obok →</text>
+    </g>
+
+    <!-- Input -->
+    <line x1="0" y1="340" x2="320" y2="340" stroke="#38383f"/>
+    <rect x="12" y="352" width="228" height="36" rx="8" fill="#1b1b1f" stroke="#38383f"/>
+    <text x="24" y="374" font-family="Arial, sans-serif" font-size="12" fill="#4a4a4f">Napisz wiadomość…</text>
+    <rect x="248" y="352" width="60" height="36" rx="8" fill="url(#brand)"/>
+    <text x="278" y="374" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="600" text-anchor="middle">Wyślij</text>
+  </g>
+
+  <!-- Bottom info -->
+  <g transform="translate(0, 690)" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#6a5647">
+    <text x="600" y="0">booking-ai-demo · fuzja 3 repo GroDev: booking-slots-php + @grodev/claude-chat-react + PHP proxy · MIT</text>
+  </g>
+</svg>

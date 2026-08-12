@@ -1,0 +1,6 @@
+[
+  {"date": "2026-09-01", "start": "10:00", "end": "10:45", "service": "manicure hybrydowy"},
+  {"date": "2026-09-01", "start": "12:00", "end": "13:30", "service": "farbowanie"},
+  {"date": "2026-09-02", "start": "09:00", "end": "10:00", "service": "strzyżenie damskie"},
+  {"date": "2026-09-02", "start": "14:00", "end": "15:00", "service": "manicure hybrydowy"}
+]
