@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend:
+    name: Backend PHP ${{ matrix.php }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ["8.1", "8.2", "8.3"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+      - name: Composer validate (backend)
+        working-directory: backend
+        run: composer validate --strict
+      - name: PHP syntax check
+        run: find backend -type f -name "*.php" -not -path "*/vendor/*" -print0 | xargs -0 -n1 php -l
+
+  frontend:
+    name: Frontend Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install
+        working-directory: frontend
+        run: npm ci || npm install
+      - name: Build
+        working-directory: frontend
+        run: npm run build
+
